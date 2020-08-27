@@ -1,0 +1,11 @@
+onJoin:
+  - ssSay §a{PLAYER}§f, welcome to our server! Online - {ONLINE}
+  - ssWait 700
+  - ssSay I love Daniel!
+
+onLeave:
+  - ssLog-prefix {PLAYER} left from the server
+
+onDeath:
+  - ssSay Who killed you, bro?
+  - ssLog Oh no, {PLAYER} died!

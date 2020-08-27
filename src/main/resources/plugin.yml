@@ -1,0 +1,9 @@
+name: SimpleScript
+version: ${project.version}
+main: ru.sapphirelife.SimpleScript
+authors: [Black_Baroness]
+website: sapphirelife.ru
+commands:
+  simplescript:
+    aliases: [ss]
+    usage: /simplescript
